@@ -16,6 +16,7 @@ export function TodoForm({ addTodo }) {
                 value={value}
                 onChange={e => setValue(e.target.value)}
             />
-        </form>
+            <span> Press Enter</span>
+        </form> 
     );
 }
