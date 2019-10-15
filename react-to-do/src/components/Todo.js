@@ -1,4 +1,5 @@
 import React from 'react';
+
 export function Todo({ todo, index, completeTodo, removeTodo }) {
     return (
         <div
